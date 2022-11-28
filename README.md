@@ -4,22 +4,22 @@
 
 ## Commands
 ### MySQL Workbench
-show databases;
-CREATE DATABASE northwind;
-CREATE USER 'fred'@'localhost' IDENTIFIED BY 'Password@123456';
-GRANT ALL PRIVILEGES ON *.* TO 'fred'@'localhost' WITH GRANT OPTION;
-FLUSH PRIVILEGES;
+1. show databases;
+2. CREATE DATABASE northwind;
+3. CREATE USER 'fred'@'localhost' IDENTIFIED BY 'Password@123456';
+4. GRANT ALL PRIVILEGES ON *.* TO 'fred'@'localhost' WITH GRANT OPTION;
+5. FLUSH PRIVILEGES;
 
 ### Commit the sql file
-cd mywind
-source northwind.sql
-commit;
-source northwind-data.sql
-commit;
+1. cd mywind
+2. source northwind.sql
+3. commit;
+4. source northwind-data.sql
+5. commit;
 
 ### Display the data
-show tables;
-select count(*) from customers;
-select * from customers;
-desc customers;
+1. show tables;
+2. select count(*) from customers;
+3. select * from customers;
+4. desc customers;
 
